@@ -137,7 +137,7 @@ display: inline-block;
     border-radius: 4px; border: 1px solid #fff; background: #2e2f42;
     padding: 8px 16px;
     width: 264px;
-    height: 40px;}
+    height: 40px; transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
 
@@ -150,15 +150,13 @@ line-height: 1.16667;
 letter-spacing: 0.04em;
 color: #fff;}
 
-.ff-subscribe:hover{border: 1px solid #4d5ae5;
+.ff-subscribe:hover, .ff-subscribe:focus{border: 1px solid #31d0aa;
     border-radius: 4px;
-    padding: 8px 16px;
-    width: 264px;
-    height: 40px; display: flex;
+   
         align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: column;
-        gap: 24px;}
+        justify-content: flex-start; 
+        
+     }
 
  .ff-subscribe:hover::placeholder{}
 
